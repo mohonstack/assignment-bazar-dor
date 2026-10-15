@@ -6,7 +6,6 @@ import Navber from "./components/navSection/Navber";
 import Fotter from "./components/fotter/Fotter";
 import Header from "./components/navSection/Header";
 import Marquee from "./components/navSection/Marquee";
-import ToastProvider from "./components/ToastProvider";
 
 
 
@@ -48,7 +47,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main>
         {children}
         
-         <ToastProvider/>
         </main>
         
         <Fotter></Fotter>
